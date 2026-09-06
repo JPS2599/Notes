@@ -4,6 +4,12 @@ Eine einfache Übersicht für Notizen, Aufgaben und laufende Themen.
 
 ---
 
+## Demo
+
+- [Markdown Showcase – Was GitHub alles darstellen kann](markdown-showcase.md)
+
+---
+
 ## Market Updates
 
 - [EUR Financials Market Update – 6. September 2026](market-update-2026-09-06.md)
