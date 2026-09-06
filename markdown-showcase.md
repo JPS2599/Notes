@@ -148,6 +148,31 @@ graph LR
     D --> C
 ```
 
+
+### Workspace-Workflow als Sequenzdiagramm
+
+```mermaid
+sequenceDiagram
+    autonumber
+    participant U as Idee / Input
+    participant C as ChatGPT
+    participant N as Notion
+    participant D as Google Drive / Sheets
+    participant G as GitHub
+    participant W as Netlify
+
+    U->>C: Frage, Notiz oder Aufgabe
+    C->>N: Struktur & Wissen festhalten
+    C->>D: Daten / Dateien aktualisieren
+    D-->>C: Aktuelle Datenbasis
+    C->>G: Markdown / Dokumentation veröffentlichen
+    G->>W: Website-Code bereitstellen
+    W-->>U: Aktualisierte Website
+    N-->>U: Zentrale Übersicht
+```
+
+> Das Beispiel zeigt, dass Mermaid nicht nur Flussdiagramme, sondern auch Abläufe zwischen mehreren Systemen darstellen kann.
+
 ---
 
 ## 9. Codeblöcke
